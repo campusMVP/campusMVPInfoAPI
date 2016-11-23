@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>campusMVPInfo - La API informativa de campusMVP</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        html, body, main  {
+            width:100%;
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        html {
+            background-color: #00324b;
+            
+        }
+
+        body {
+            font-family:Roboto, 'Segoe UI', sans-serif;
+            font-size:100%;
+            color:#f1f2f3;
+        }
+        
+        h1 {
+            background-color:#99ccff;
+            color:#000;
+            font-family: 'consolas', monospace;
+            padding:0.3em;
+            text-align:center;
+            width:auto;
+            position:relative;
+            display:inline-block;
+            border-radius:0.1em;
+            margin-bottom:0.5rem;
+        }
+
+        h1::after {
+            border-top: 30px solid #99ccff;
+            border-left: 30px solid transparent;
+            border-right: 5px solid transparent;
+            content: '';
+            position: absolute;
+            top: 100%;
+            bottom: 0;
+            left: 35%;
+            margin-left: -30px;
+            transform: skewX(30deg);    
+        }
+
+        h2 {
+            font-weight:normal;
+        }
+        a, a:active {
+            color:#99ccff;
+        }
+        a:hover {text-decoration:none;}
+        
+        a img {
+            border:0;
+        }
+
+        header {
+            text-align:center;
+            margin:4rem auto 0;
+            max-width:500px;
+        }
+
+        main {
+            color: #f2f3f4;
+            width: 100%;
+            max-width: 600px;
+            margin: 1em auto;
+            text-align: center;
+            max-width: 510px;
+            padding: 0 1rem;
+        }
+        main p {
+            font-size:120%;
+        }
+
+        #logo-campusmvp {margin-top:2rem;}
+        
+        footer {
+            position:absolute;
+            bottom:0;
+            text-align:center;
+            width:100%;
+            padding:2rem;
+            box-sizing:border-box;
+        }
+
+        footer p {
+            font-size:80%;
+            text-align:center;
+            color:#026394;
+        }
+
+        footer a {color:#336699;}
+    </style>
+</head>
+<body>
+<header>
+    <h1>campusMVPInfo</h1>
+    <p class="robot-wrap"><a href="https://github.com/campusMVP/campusMVPInfoAPI" title="Bip, bip, bip. A la página del proyecto en GitHub" target="_blank"><img src="robot-api-linea.png" alt="Ilustración de un robot que representa a la API"/></a></p>
+        </header>
+ <main>
+        
+        <h2>La API con info sobre campusMVP.</h2>
+    <p><a href="https://github.com/campusMVP/campusMVPInfoAPI" title="A la página del proyecto en GitHub" target="_blank">Consulta cómo funciona y descárgate el código fuente.</a></p>
+     <p id="logo-campusmvp"><a href="http://campusmvp.es" target="_blank"><img src="logo-campusmvp.png" alt="Logo campusMVP" /></a></p>
+
+</main>
+<footer><p>Ilustración creada a partir de <a href="http://www.freepik.es/vector-gratis/pack-de-siluetas-de-robots_714901.htm#term=robot&amp;page=1&amp;position=20" target="_blank">esta imagen de Freepick</a>.</p></footer>
+</body>
+</html>
